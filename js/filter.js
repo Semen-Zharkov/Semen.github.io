@@ -67,13 +67,13 @@ const itemsList = document.querySelector('.list-work-examples');
 filterButton.addEventListener('click', applyFilters);
 
 function applyFilters() {
-  const selectedFilters = Array.from(filterCheckboxes).filter(item => item.checked).map(item => item.value);
-    console.log(selectedFilters)
-   itemsList.querySelectorAll('list-work-examples-item').forEach(item => {
-    const itemCategory = item.getAttribute('data-category');
+  const selectedFilters = Array.from(filterCheckboxes).filter(item => item.checked).map(item => item.id); /// проверяем сколько нажато checkbox
+    itemsList.querySelectorAll('.list-work-examples-item').forEach(item => {
+    const itemCategory = item.getAttribute('data-category'); // все категории карточек
     if (selectedFilters.length === 0 || selectedFilters.includes(itemCategory)) {
       // Показываем элементы, которые соответствуют выбранным фильтрам или показываем все элементы, если ни один фильтр не выбран
       item.style.display = 'flex';
+      console.log(item)
     } else {
       // Скрываем элементы, которые не соответствуют выбранным фильтрам
       item.style.display = 'none';

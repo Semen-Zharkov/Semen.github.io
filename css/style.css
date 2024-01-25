@@ -467,9 +467,12 @@ input[type="checkbox"]{
     line-height: normal;
 }
 .kitchen_description_title_desc{
+    max-width: 23.9375rem;
     margin-top: 1rem;
 }
-
+.limit-height{
+    max-height: 4.5625rem;
+}
 .kitchen_description_price{
     display: flex;
     gap: 2.5rem;
