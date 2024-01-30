@@ -1,0 +1,231 @@
+@media (max-width: 1680px){
+    .nav-container{
+        max-width: 1400px;
+    }
+    .inner-wrap-container{
+        max-width: 1400px;
+    }
+    .container-adv{
+        max-width: 1400px;
+        gap: 4rem
+    }
+    .nav-advantages{
+        gap: 2rem;
+    }
+    .cont-work-examples{
+        max-width: 1400px;
+    }
+    .list-work-examples-item img{
+        width: 13rem;
+        height: 20rem;
+    }
+    .kitchen-description-desc{
+        padding: 1.5rem 2.5rem 1.5rem 2.3rem;
+    }
+    .kitchen-description-desc::after{
+        width: 540px;
+    }
+    .kichen_btn{
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        gap: 0.5rem;
+    }
+}
+@media (max-width: 1600px){
+    .container-adv{
+        max-width: 1300px;
+    }
+}
+@media (max-width: 1536px){
+    .container-adv{
+        max-width: 1250px;
+    }
+    .nav-right{
+        margin-top: 3rem;
+    }
+}
+@media (max-width: 1440px){
+    .nav-container{
+        max-width: 1200px;
+    }
+    .site-nav-two-item:first-child{
+        display: none;
+    }
+    .inner-wrap-container{
+        max-width: 1200px;
+    }
+    .container-adv{
+        max-width: 1200px;
+    }
+    .cont-work-examples{
+        max-width: 1250px;
+    }
+    .kitchen-description-desc{
+        width: calc(100% - 17.9375rem);
+        padding: 1.5rem 2rem 1.5rem 1rem;
+    }
+    .kitchen-description-desc::after{
+        width: 500px;
+    }
+    .kichen_btn{
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        gap: 0.5rem;
+    }
+}
+
+
+@media (max-width:1366px){
+    .container-adv{
+        max-width: 1100px;
+        gap:2rem;
+    }
+}
+
+
+
+@media (max-width: 1280px){
+    h2{
+        font-size: 2rem;
+    }
+    .nav-container{
+        max-width: 1000px;
+        padding: 1.5rem 0;
+    }
+    .container-warming-up{
+        background-image: url("../img/background/main-window.webp");
+    }
+    .inner-wrap h1{
+        font-size: 3.5rem;
+    }
+    .main-price img{
+        width: 65px;
+        height: 65px;
+    }
+    .main-price p{
+        font-size: 1.2rem;
+    }
+    .main-price strong{
+        font-size: 1.2rem;
+    }
+    .inner-advantages{
+        padding: 0rem 2rem;
+        min-height: 3.5rem;
+        transition: .1s;
+    }
+    .inner-advantages:nth-child(2) {
+        position: absolute;
+        left: 45.5rem;
+        top: 12.6875rem;
+    }
+    .inner-advantage p{
+        font-size: 0.8rem;
+    }
+    .inner-wrap-container{
+        max-width: 1000px;
+    }
+    .images-kichen{
+        width: 380px;
+        height: 492px;
+    }
+    .container-adv{
+        max-width: 1000px;
+        max-height: 380px;
+    }
+    .nav-advantages{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 2rem;
+    }
+    .nav-advantages-item{
+        font-size: 1.3rem;
+    }
+    .cont-work-examples{
+        max-width: 1000px;
+    }
+    .kitchen-description-desc{
+        max-width: 500px;
+        padding: 1.5rem 2rem 1.5rem 1rem;
+    }
+    .kitchen-description-desc::after{
+        width: 588px;
+    }
+    .kichen_btn{
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        gap: 0.5rem;
+    }
+    .container-btns{
+        gap: 2rem;
+    }
+    .block-btn-nav .reset-btn{
+        margin-left: 0;
+    }
+    .list-work-examples{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .list-work-examples-item{
+        justify-content: center;
+    }
+    .list-work-examples-item img{
+        width: 11rem;
+        height: 17rem;
+    }
+}
+@media (max-width: 1180px){
+    .nav-container{
+        max-width: 950px;
+        padding: 1.5rem 0;
+    }
+    .inner-wrap-container{
+        max-width: 950px;
+    }
+    .images-kichen{
+        width: 350px;
+        height: 462px;
+    }
+    .container-adv{
+        max-width: 900px;
+        max-height: 340px;
+    }
+    .nav-advantages{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 2rem;
+    }
+    .nav-advantages-item{
+        font-size: 1.3rem;
+    }
+    .cont-work-examples{
+        max-width: 1000px;
+    }
+    .kitchen-description-desc{
+        max-width: 500px;
+        padding: 1.5rem 2rem 1.5rem 1rem;
+    }
+    .kitchen-description-desc::after{
+        width: 588px;
+    }
+    .kichen_btn{
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        gap: 0.5rem;
+    }
+    .container-btns{
+        gap: 2rem;
+    }
+    .block-btn-nav .reset-btn{
+        margin-left: 0;
+    }
+    .list-work-examples{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .list-work-examples-item{
+        justify-content: center;
+    }
+}
+@media (max-width: 1024px){
+    
+}

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lora:wght@400;700&family=Merriweather:wght@900&family=Open+Sans:wght@400;700&family=Playfair+Display:ital@0;1&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -18,7 +19,7 @@
                         <div class="site-navigation-one-item"> 
                             <img class="icon-logo" src="img/icons/icon-logo.svg" alt="Иконка логотипа 'Студия кухни МАРКО'" >
                         </div>
-                        <div class="site-navigation-one-item">
+                        <a class="site-navigation-one-item" href="https://yandex.ru/maps/1107/anapa/house/ulitsa_krylova_27/Z04YdQViSEUAQFpufXR2eX5lYQ==/?ll=37.322584%2C44.878100&z=18.57" target="_blank">
                             <i class="icon-map">
                                 <img src="img/icons/icon-map.svg" alt="Иконка яндекс карт">
                             </i>
@@ -31,7 +32,7 @@
                                 <p class="count-grade">81 отзыв • 100 оценок</p>
                             </div>
                         </div>
-                    </div>
+                    </a>
                     <div class="site-nav-two">
                         <div class="site-nav-two-item">
                             <p class="address-studio">
@@ -40,21 +41,34 @@
                             </p>
                         </div>
                         <div class="site-nav-two-item"> 
-                            <a href="#" class="icon-wharsapp-link">
-                                <img class="icon-whatsapp" src="img/icons/icon-whatsapp.svg" alt="Иконка ватсапп">
+                            <a href="https://api.whatsapp.com/send/?phone=79883117788" class="icon-wharsapp-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                                    <g clip-path="url(#clip0_0_711)">
+                                    <path d="M18.0045 0H17.9955C8.07075 0 0 8.073 0 18C0 21.9375 1.269 25.587 3.42675 28.5503L1.1835 35.2373L8.10225 33.0255C10.9485 34.911 14.3438 36 18.0045 36C27.9292 36 36 27.9247 36 18C36 8.07525 27.9292 0 18.0045 0Z" fill="#FBF6EF"/>
+                                    <path d="M28.4782 25.4184C28.044 26.6447 26.3205 27.6617 24.9457 27.9587C24.0052 28.1589 22.7767 28.3187 18.6412 26.6042C13.3515 24.4127 9.94499 19.0374 9.67949 18.6887C9.42524 18.3399 7.54199 15.8424 7.54199 13.2594C7.54199 10.6764 8.85374 9.41866 9.38249 8.87866C9.81674 8.43541 10.5345 8.23291 11.223 8.23291C11.4457 8.23291 11.646 8.24416 11.826 8.25316C12.3547 8.27566 12.6202 8.30716 12.969 9.14191C13.4032 10.1882 14.4607 12.7712 14.5867 13.0367C14.715 13.3022 14.8432 13.6622 14.6632 14.0109C14.4945 14.3709 14.346 14.5307 14.0805 14.8367C13.815 15.1427 13.563 15.3767 13.2975 15.7052C13.0545 15.9909 12.78 16.2969 13.086 16.8257C13.392 17.3432 14.4495 19.0689 16.0065 20.4549C18.0157 22.2437 19.6447 22.8152 20.2275 23.0582C20.6617 23.2382 21.1792 23.1954 21.4965 22.8579C21.8992 22.4237 22.3965 21.7037 22.9027 20.9949C23.2627 20.4864 23.7172 20.4234 24.1942 20.6034C24.6802 20.7722 27.252 22.0434 27.7807 22.3067C28.3095 22.5722 28.6582 22.6982 28.7865 22.9209C28.9125 23.1437 28.9125 24.1899 28.4782 25.4184Z" fill="#002B45"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_0_711">
+                                    <rect width="36" height="36" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
                             </a>
                         </div>
                         <div class="site-nav-two-item"> 
-                            <a href="#" class="icon-telegram-link">
+                            <a href="https://t.me/+79883117788" class="icon-telegram-link" target="_blank">
                                 <img class="icon-telegram" src="img/icons/icon-telegram.svg" alt="Иконка телеграма">
                             </a>
                         </div>
                         <div class="site-nav-two-item"> 
                             <a href="tel:+79883117788" class="tel-link">+7 (988)-311-77-88</a>
                         </div>
-                        <button class="site-nav-two-item"> 
-                            <span class="request-call">Заказать звонок</span>
+                        <button class="site-nav-two-item btn-phone"> 
+                            Заказать звонок
                         </button>
+                    </div>
+                    <div class="menu_burger">
+                        <span></span>
                     </div>
                 </div>
             </div> 
@@ -110,7 +124,7 @@
                                     <img class="icon-kichen" src="img/icons/icon-kichen.svg" alt="Иконка кухни">
                                 </i>
                                 <p> 
-                                    <strong>2000 г на рынке</strong><br>наши кухни выбрали<br>10 000+ семей
+                                    <strong>C 2000 г на рынке</strong><br>наши кухни выбрали<br>10 000+ семей
                                 </p>
                             </li>
                             <li class="nav-advantages-item">
@@ -150,7 +164,7 @@
                             </div>
                             <ul class="filter nav-bid">
                                 <label class="filter-nav">                                   
-                                    <input class="checkbox__input" type="checkbox" id="layout_straight" name="layout_straigh">
+                                    <input class="checkbox__input" type="checkbox" id="layout_straigh" name="layout_straigh">
                                     <span class="checkbox__label" for="layout_straigh">Прямые</span>                                   
                                 </label>
                                 <li class="filter-nav">
@@ -219,7 +233,7 @@
                 </div>
                 <div class="work-examples">
                     <ul class="list-work-examples">
-                        <li class="list-work-examples-item" data-category="layout_three">
+                        <li class="list-work-examples-item" data-category="layout_three" data-style = "style_minimalism" data-color="color_white">
                             <img src="img/image/kichen_main.jpg" alt="Фото кухни">
                             <div class="kitchen-description-desc">
                                 <div class="kitchen-description">
@@ -255,15 +269,15 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="list-work-examples-item" data-category="layout_corner">
+                        <li class="list-work-examples-item" data-category="layout_corner" data-style="style_classic" data-color="color_beige">
                             <img src="img/image/kichen_main.jpg" alt="Фото кухни">
                             <div class="kitchen-description-desc">
                                 <div class="kitchen-description">
                                     <div class="limit-height">
                                         <div class="kitchen_description_title">
-                                            Кухня 097 минимализм
+                                            Кухня 097 классика
                                         </div>
-                                        <p class="kitchen_description_title_desc">Угловая белая кухня со столешницей под бетон.</p>
+                                        <p class="kitchen_description_title_desc">Угловая бежевая кухня со столешницей под бетон.</p>
                                     </div>
                                     <div class="kitchen_description_price">
                                         <div class="price economy">
@@ -289,13 +303,13 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="list-work-examples-item" data-category="layout_straigh">
+                        <li class="list-work-examples-item" data-category="layout_straigh"  data-style="style_classic" data-color="color_white">
                             <img src="img/image/kichen_main.jpg" alt="Фото кухни">
                             <div class="kitchen-description-desc">
                                 <div class="kitchen-description">
                                     <div class="limit-height">
                                         <div class="kitchen_description_title">
-                                            Кухня 097 минимализм
+                                            Кухня 097 классика
                                         </div>
                                         <p class="kitchen_description_title_desc">Прямая белая кухня со столешницей под бетон.</p>
                                     </div>                        
@@ -323,7 +337,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="list-work-examples-item" data-category="layout_figurative">
+                        <li class="list-work-examples-item" data-category="layout_figurative" data-style = "style_minimalism" data-color="color_beige">
                             <img src="img/image/kichen_main.jpg" alt="Фото кухни">
                             <div class="kitchen-description-desc">
                                 <div class="kitchen-description">
@@ -331,7 +345,7 @@
                                         <div class="kitchen_description_title">
                                             Кухня 097 минимализм
                                         </div>
-                                        <p class="kitchen_description_title_desc">П-образная белая кухня со столешницей под бетон.</p>
+                                        <p class="kitchen_description_title_desc">П-образная бежевая кухня со столешницей под бетон.</p>
                                     </div>
                                     <div class="kitchen_description_price">
                                         <div class="price economy">
@@ -362,6 +376,7 @@
             </div> 
         </section>
     </main>
+    <script src="js/mouseover.js"></script>
     <script src="js/filter.js"></script>
 </body>
 </html>

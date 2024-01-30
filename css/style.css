@@ -9,6 +9,7 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    font-size: 1rem;
 }
 strong{
     font-family: "Open Sans";
@@ -21,7 +22,7 @@ ul{
 }
 h2{
     font-family: "Lora";
-    font-size: 36px;
+    font-size: 2.25rem;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
@@ -30,7 +31,7 @@ a{
     text-decoration: none;
 }
 .container-warming-up{
-    background-image: url("../img/background/main_window.png");
+    background-image: url("../img/background/main-window_gp.webp");
     background-repeat: no-repeat;
     background-position: revert;
     background-size: cover;
@@ -42,7 +43,8 @@ a{
 .nav-container{
     display: flex;
     justify-content: space-between;
-    padding: 36px 0;
+    align-items: center;
+    padding: 2.25rem 0;
     max-width: 1620px;
     margin: 0 auto;
 }  
@@ -53,36 +55,39 @@ a{
 /* Второй элемент в шапке навигации(карта и отзывы) */
 .site-navigation-one-item:last-child{
     display: flex;
-    margin-left: 35px;
+    margin-left: 2.1875rem;
     color: #FFF;
     font-family: Yandex Sans Display;
     font-style: normal;
     line-height: normal;
+}
+.site-navigation-one-item:last-child:hover{
+    color: #F2A22E;
 }
 .icon-logo{
     width: 177px;
     height: 53.184px;
 }
 .block-reviews{
-    margin-left: 4.76px;
+    margin-left: 0.2975rem;
 }
 .block-reviews .map-text{
-    font-size: 13.826px;
+    font-size: 0.864125rem;
     font-weight: 700;
 }
 .icon-stars{
     display: flex;
-    margin-top: 3px;
+    margin-top: 0.1875rem;
 }
 .icon-stars p{
     color: #827F7F;
-    font-size: 21.653px;
+    font-size: 1.35rem;
     font-weight: 700;
-    letter-spacing: -0.217px;
+    letter-spacing: -0.0135rem;
 }
 .block-reviews .count-grade{
-    margin-top: 4.24px;
-    font-size: 8.752px;
+    margin-top: 0.265rem;
+    font-size: 0.547rem;
     font-weight: 400;
 }
 .site-nav-two{
@@ -96,23 +101,23 @@ a{
 }
 .address-studio strong{
     color: #FFF;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .site-nav-two-item .address-studio{
-    margin-right: 73px;
+    margin-right: 4.5625rem;
 }
-.site-nav-two-item .icon-whatsapp{
-    margin-right: 16px;
+.site-nav-two-item{
+    margin-right: 1rem;
 }
 .site-nav-two-item .icon-telegram{
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 .site-nav-two-item .tel-link{
     color: #FFF;
     font-family: "Open Sans";
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
-    margin-right: 20px;
+    margin-right: 1.25rem;
     text-decoration: none;
 }
 button{
@@ -123,18 +128,56 @@ button{
   background-color: transparent;
   cursor: pointer;
 }
-.site-nav-two-item .request-call{
+button:hover{
+    border: 0.0625rem solid #F2A22E;
+    color: #F2A22E;
+}
+button:active{
+    border: 0.0625rem solid #011A2A;
+    color: #011A2A;
+}
+.btn-phone{
     
     font-family: "Open Sans";
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     text-transform: uppercase;
-    border: 0.836px solid #FFF;
-    padding: 15.042px 26.742px;
+    border: 0.05225rem solid #FFF;
+    padding: 0.9375rem 1.66rem;
 }
 
-section{
+.menu_burger{   
+    display: flex; 
     position: relative;
+    align-items: center;
+    width: 2.5rem;
+    height: 32px;
+    z-index: 10;
+}
+.menu_burger span{
+    width: 100%;
+    height: 4px;
+    transform: scale(1);
+    background-color: #000;
+}
+.menu_burger::before, .menu_burger::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    z-index: 10;
+}
+.menu_burger::after{ bottom: 0}
+.menu_burger::before{ top:0 }
+
+
+
+
+
+
+section{
+    position: relative;   
 }
 .inner-wrap-container{
     position: relative;
@@ -149,7 +192,7 @@ section{
 }
 .inner-wrap h1{
     font-family: "Lora";
-    font-size: 64px;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -179,10 +222,10 @@ section{
 .main-info .text{
     font-size: 0.875rem;
 } 
-.main-info .main-btn{
+.main-btn{
     margin-top:0.9375rem;
-    padding: 18px 32px;
-    border: 1px solid #FFF;
+    padding: 1.125rem 2rem;
+    border: 0.0625rem solid #FFF;
 }
 .arrow{
     margin-top:0.75rem;
@@ -191,10 +234,10 @@ section{
     position: relative;
     display: inline-flex;
     min-height: 5.375rem;
-    padding: 18px 32px;
+    padding: 1.125rem 2rem;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
+    border-radius: 0.9375rem;
     background: rgba(0, 43, 69, 0.90);
     backdrop-filter: blur(2px);
 }
@@ -207,7 +250,7 @@ section{
     height: 31px;
     position: absolute;
     top:50%;
-    right: -16px;
+    right: -1rem;
     transform: translate(0, -50%);
 }
 .icon-tochka{
@@ -245,8 +288,8 @@ section{
 .images-kichen{
     width: 420px;
     height: 532px;
-    margin-top: -38px;
-    margin-left: -151px;
+    margin-top: -2.375rem;
+    margin-left: -9.4375rem;
 }
 .nav-right{
     position: relative;
@@ -270,15 +313,13 @@ section{
 .nav-advantages{
     position: relative;
     display: flex;
-    flex-wrap: wrap;
     gap: 4.6875rem;
     margin-top: 3.5625rem;
 }
 .nav-advantages-item{
     display: flex;
-    flex-wrap: wrap;
     gap: 1.875rem;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 
@@ -345,7 +386,7 @@ section{
     min-width: 12.9375rem;
     padding: 1.3125rem 0 1.125rem 2.75rem;
     background: #FFF;
-    box-shadow: 0px 4px 7.3px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0rem 0.25rem 0.456rem 0.375rem rgba(0, 0, 0, 0.05);
     z-index: 1;
     opacity: 0;
     transition: .4s;
@@ -412,6 +453,10 @@ input[type="checkbox"]{
     background-color: #015B91;
     transition: .1s;
 }
+.block-btn-nav .apply-btn:active{
+    background-color: #011A2A;
+    transition: .1s;
+}
 .block-btn-nav .reset-btn{
     border: 0.0625rem solid #002B45;
     margin-left: 0.6875rem;
@@ -421,22 +466,28 @@ input[type="checkbox"]{
     border: 0.0625rem solid #F2A22E;
     transition: .1s;
 }
-
+.block-btn-nav .reset-btn:active{
+    border: 0.0625rem solid #011A2A;
+    color: #011A2A;
+    transition: .1s;
+}
 
 
 .work-examples{
     padding-top: 2.8125rem;
 }
 .list-work-examples{
-    display: flex;
-    flex-wrap: wrap;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2.8125rem;
 }
 .list-work-examples-item{
     position: relative;
     display: flex;
-    min-height: 436px;
+    max-height: 436px;
     align-items: center;
+    transition: 14s;
 }
 .kitchen-description-desc{
     position: relative;
@@ -448,8 +499,8 @@ input[type="checkbox"]{
     content: "";
     position: absolute;
     top: 0;
-    right: 0;
-    border: 1px solid #000;
+    left: -5.5625rem;
+    border: 0.0625rem solid #000;
     height: 100%;
     width: 588px;
     background: #FBF6EF;
@@ -524,10 +575,10 @@ input[type="checkbox"]{
 }
 .more_details{
     color: #FBF6EF;
-    padding: 18px 32px;
+    padding: 1.125rem 2rem;
     background-color: #002B45;
 }
 .cost_calculation{
-    padding: 18px 32px;
-    border: 1px solid #002B45;
+    padding: 1.125rem 2rem;
+    border: 0.0625rem solid #002B45;
 }
